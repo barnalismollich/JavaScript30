@@ -75,7 +75,7 @@
           const [mins, secs] = timeCode.split(":").map(parseFloat);
           return mins * 60 + secs;
         })
-        .reduce((total, vidSeconds) => total + vidSeconds);
+        .reduce((total, vidSeconds) => total + vidSeconds); // focus of this video is to show the reduce function
 
       let secondsLeft = seconds;
       const hours = Math.floor(secondsLeft / 3600);
