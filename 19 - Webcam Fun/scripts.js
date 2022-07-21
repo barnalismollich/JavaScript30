@@ -17,6 +17,8 @@ function getVideo() {
     });
 }
 
+// this video is more complex. Unfortunately the video did not work on my localhost server and with the JSON file.
+
 function paintToCanavas() {
   const width = video.videoWidth();
   const height = video.videoHeigth;
